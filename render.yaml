@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: scamshield-api
+    env: node
+    plan: free
+    buildCommand: cd api && npm install
+    startCommand: cd api && npm start
